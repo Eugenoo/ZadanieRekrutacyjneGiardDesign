@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+@theme {
+    --color-orange-custom: #DCC1AB;
+    --color-stone-custom: #F5F0EC;
+    --color-green-custom: #1B5B31;
+    --font-sans: 'Inter', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+}
