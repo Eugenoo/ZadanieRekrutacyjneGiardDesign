@@ -51,7 +51,7 @@ const closeMobileMenu = () => {
   isMobileOfferOpen.value = false
 }
 
-// --- 3. Obsługa Szalonego Search Bara ---
+// --- 3. Obsługa Search Bara ---
 const isSearchExpanded = ref(false)
 const searchQuery = ref('')
 const searchInput = ref<HTMLInputElement | null>(null)
@@ -65,6 +65,7 @@ const toggleSearch = async () => {
     searchInput.value?.focus()
   }
 }
+
 
 const closeSearch = () => {
   if (!searchQuery.value) {
@@ -253,7 +254,6 @@ onUnmounted(() => {
       </button>
     </div>
 
-    <!-- MOBILE: Overlay z menu -->
     <!-- MOBILE: Overlay z menu -->
     <Transition
         enter-active-class="transition duration-300 ease-out"

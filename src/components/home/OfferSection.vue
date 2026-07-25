@@ -11,7 +11,7 @@ const offers = [
     text: 'Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.',
     linkText: 'Dowiedz się więcej',
     href: '#realisations',
-    icon: '../../../../src/assets/icons/Icon-pen.png'
+    icon: penIcon
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const offers = [
     text: 'Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.',
     linkText: 'Dowiedz się więcej',
     href: '#realisations',
-    icon: '../../../../src/assets/icons/Icon-visualistaions.png'
+    icon: eyeIcon
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const offers = [
     text: 'Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.',
     linkText: 'Zobacz nasze realizacje',
     href: '#realisations',
-    icon: '../../../../src/assets/icons/Icon-realisations.png'
+    icon: starsIcon
   }
 ]
 </script>
