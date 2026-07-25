@@ -90,7 +90,7 @@ onMounted(() => {
   <section ref="sectionRef" class="relative bg-orange-custom w-full mx-auto pt-32 pb-20">
 
     <!-- Nagłówek -->
-    <div class="flex flex-col gap-4 mb-24 relative z-10 md:px-[140px]">
+    <div class="flex flex-col gap-4 mb-24 relative z-10 px-10 md:px-[140px]">
       <p class="text-green-900 text-xs font-semibold uppercase tracking-wider">
         Realizacje
       </p>
