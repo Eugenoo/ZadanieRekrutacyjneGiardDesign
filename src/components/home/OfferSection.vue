@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import OfferCard from './OfferCard.vue'
+import penIcon from '@/assets/icons/Icon-pen.png'
+import eyeIcon from '@/assets/icons/Icon-visualistaions.png'
+import starsIcon from '@/assets/icons/Icon-realisations.png'
 
 const offers = [
   {
