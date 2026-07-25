@@ -4,7 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Autoplay } from 'swiper/modules'
 
 // Style Swipera
-import 'swiper/css'
+import 'swiper/css';
+import heroImage from '@/assets/photos/hero.png';
 
 const modules = [Navigation, Autoplay]
 
@@ -13,14 +14,14 @@ const slides = [
     id: 1,
     title: 'Nowoczesna aranżacja <br /> Twojego ogrodu',
     description: 'Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.',
-    image: '../../../src/assets/photos/hero.png',
+    image: heroImage,
     alt: 'Ogród 1'
   },
   {
     id: 2,
     title: 'Unikalny projekt <br /> dopasowany do Ciebie',
     description: 'Tworzymy przestrzenie, które zachwycają i pozwalają na pełen relaks w domowym zaciszu. Sprawdź naszą ofertę.',
-    image: '../../../src/assets/photos/hero.png',
+    image: heroImage,
     alt: 'Ogród 2'
   }
 ]
@@ -61,7 +62,6 @@ onUnmounted(() => {
           <div class="order-2 md:order-1 flex items-center justify-end md:py-6 px-4 py-20 md:pl-8 lg:pl-16 md:pr-12 z-10">
             <div class="w-full max-w-[550px] flex flex-col justify-center">
 
-              <!-- Animacje ujawniania z blur-to-clear przy zmianie slajdu -->
               <div class="space-y-4 lg:space-y-6">
                 <h1
                     class="font-heading slide-anim-title text-3xl lg:text-5xl xl:text-6xl leading-tight lg:leading-[1.12] text-neutral-900"
@@ -73,7 +73,6 @@ onUnmounted(() => {
                 </p>
               </div>
 
-              <!-- Przyciski CTA -->
               <div class="slide-anim-cta mt-6 lg:mt-10 flex flex-wrap items-center gap-4 lg:gap-8">
 
                 <a href="#contact">
@@ -84,8 +83,6 @@ onUnmounted(() => {
                   </button>
                 </a>
 
-
-                <!-- Przycisk Drugorzędny z płynnym przesuwem koloru -->
                 <a href="#realisations">
                   <button
                       class="group relative overflow-hidden rounded-full border border-green-900 px-6 py-3.5 text-sm lg:text-base font-medium text-green-900 transition-colors duration-300 active:scale-95"
@@ -111,7 +108,6 @@ onUnmounted(() => {
             </div>
           </div>
 
-          <!-- PRAWA KOLUMNA: Subtelny Parallax na tle -->
           <div class="order-1 md:order-2 relative h-60 md:h-full w-full bg-gray-300 overflow-hidden">
             <div
                 class="absolute inset-0 w-full h-[120%] -top-[10%] transition-transform ease-out duration-75"
@@ -124,7 +120,6 @@ onUnmounted(() => {
               />
             </div>
 
-            <!-- Nawigacja slidera w prawym dolnym rogu -->
             <div class="absolute bottom-0 right-0 flex bg-stone-100 z-20 shadow-md">
               <button
                   id="hero-prev-btn"
